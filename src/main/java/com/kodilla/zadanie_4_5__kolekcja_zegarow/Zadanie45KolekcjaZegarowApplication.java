@@ -19,7 +19,7 @@ public class Zadanie45KolekcjaZegarowApplication {
         clocks.add(new Clock());
         clocks.add(new Clock());
 
-        for (int i = 0; i<5; i++) clocks.get(i).addMinute();
+        for (Clock clock: clocks) clock.addMinute();
     }
 
 }
